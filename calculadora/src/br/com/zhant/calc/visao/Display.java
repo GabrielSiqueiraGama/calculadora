@@ -13,7 +13,7 @@ import br.com.zhant.calc.modelo.MemoriaObservador;
 @SuppressWarnings("serial")
 public class Display extends JPanel implements MemoriaObservador{
 	
-	private JLabel label;
+	private final JLabel label;
 	
 	public Display() {
 		Memoria.getInstancia().adicionarObservador(this);

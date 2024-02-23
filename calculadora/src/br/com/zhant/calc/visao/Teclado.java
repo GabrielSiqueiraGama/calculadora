@@ -53,7 +53,7 @@ public class Teclado extends JPanel implements ActionListener{
 		c.gridwidth = 2;
 		adicionarBotao("0", COR_CINZA_CLARO, c, 0,4);
 		c.gridwidth = 1;
-		adicionarBotao(".", COR_CINZA_CLARO, c, 2,4);
+		adicionarBotao(",", COR_CINZA_CLARO, c, 2,4);
 		adicionarBotao("=", COR_LARANJA, c, 3,4);
 	}
 
